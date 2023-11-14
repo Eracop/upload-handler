@@ -43,7 +43,7 @@ const Uploader = () => {
       setUploadData(responseData.filename);
 
       // Log the parsed response for debugging
-      console.log('API Response:', responseData);
+      console.log({responseData});
     } catch (error) {
       console.error('Error uploading image:', error);
     }
